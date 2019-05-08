@@ -1,0 +1,17 @@
+#content{
+	display: grid;
+	grid-template-columns: repeat(9,1fr); 
+	grid-template-rows: repeat(12,1fr);
+	grid-gap:10px;
+	max-width: 960px;
+	margin: 0 auto;
+}
+#content div{
+	text-align: center;
+	background: #abc;
+	padding: 30px;
+}
+#content div:nth-child(even){
+	background: #acba;
+
+}
